@@ -1,0 +1,124 @@
+/* Modo claro */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input, select, button, table, th, td {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  button.reset-btn {
+    background-color: #dc3545;
+  }
+  
+  button.reset-btn:hover {
+    background-color: #c82333;
+  }
+  
+  /* Botón de modo nocturno en la esquina superior derecha */
+  .modo-nocturno {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .modo-nocturno:hover {
+    background-color: #444;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Modo nocturno */
+  body.night-mode {
+    background-color: #000;
+    color: white;
+  }
+  
+  body.night-mode input, body.night-mode select, body.night-mode table, body.night-mode th, body.night-mode td, body.night-mode button {
+    background-color: #333;
+    color: white;
+    border: 1px solid #777;
+  }
+  
+  body.night-mode button {
+    background-color: #444;
+    color: white;
+  }
+  
+  body.night-mode button:hover {
+    background-color: #666;
+  }
+  
+  body.night-mode input, body.night-mode select {
+    background-color: #444;
+    color: white;
+    border: 1px solid #555;
+  }
+  
+  body.night-mode input::placeholder, body.night-mode select {
+    color: #ddd;
+  }
+  
